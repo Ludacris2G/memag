@@ -1,0 +1,35 @@
+.footer {
+    height: 125px;
+    background-color: #1b1e28;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.footer__media {
+    margin: 0 1rem;
+    display: flex;
+}
+
+.footer__icon {
+    margin: 0 .25rem;
+}
+
+.footer__media a {
+    color: white;
+}
+
+.footer__text {
+    font-size: .7rem;
+    margin-top: .2rem;
+}
+
+.footer__company {
+    margin-top: .7rem;
+}
+
+.footer__small {
+    font-size: .4rem;
+}

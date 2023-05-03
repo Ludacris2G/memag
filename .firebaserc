@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "memag-2c50c",
+    "memag": "memag-2c50c"
+  },
+  "targets": {},
+  "etags": {}
+}
