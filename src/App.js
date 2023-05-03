@@ -41,14 +41,14 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path='/' element={[<Header/>, <Home/>]}/>
-          <Route path="/checkout" element={[<Header/>, <Checkout/>]}/>
-          <Route path='/login' element={[<Login/>]}/>
-          <Route path='/payment' element={[<Header/>, 
+          <Route path='/' element={[<Header key='header'/>, <Home key='home'/>]}/>
+          <Route path="/checkout" element={[<Header key='header'/>, <Checkout key='checkout'/>]}/>
+          <Route path='/login' element={[<Login key='login'/>]}/>
+          <Route path='/payment' element={[<Header key='header'/>, 
           <Elements stripe={promise}>
             <Payment/>
           </Elements>]}/>
-          <Route path='/orders' element={[<Header/>, <Orders/>]}/>
+          <Route path='/orders' element={[<Header key='header'/>, <Orders key='orders'/>]}/>
         </Routes>
       </div>
     </Router>
